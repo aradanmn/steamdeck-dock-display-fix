@@ -1,0 +1,7 @@
+# /etc/udev/rules.d/99-deck-dock-display.rules
+#
+# Trigger dock-display-hotplug.sh on any DRM hotplug event.
+# Dock-agnostic: fires for any DP connector change on card0.
+# The script handles all filtering (connect vs disconnect, cooldown stamp).
+
+ACTION=="change", SUBSYSTEM=="drm", KERNEL=="card0", ENV{HOTPLUG}=="1", RUN+="/home/deck/.local/bin/dock-display-hotplug.sh"
