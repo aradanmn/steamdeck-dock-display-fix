@@ -3,7 +3,8 @@
 **Sessions:** 2026-06-20 through 2026-06-21  
 **Hardware:** Steam Deck OLED (Galileo), Sceptre O34 ultrawide, CalDigit dock (and others)  
 **OS:** SteamOS 3.8.10 build 20260617.1, gamescope 3.16.23.2  
-**GitHub issue filed:** [ValveSoftware/SteamOS#2467](https://github.com/ValveSoftware/SteamOS/issues/2467)
+**GitHub issue filed:** [ValveSoftware/SteamOS#2467](https://github.com/ValveSoftware/SteamOS/issues/2467)  
+**Participants:** the repo owner ("the user" below), who steered and tested on the hardware, and Claude (Anthropic's AI model, via Claude Code), who did the log analysis and wrote the code. This log is Claude's write-up of the sessions.
 
 ---
 
