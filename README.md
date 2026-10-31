@@ -10,6 +10,10 @@ Tested on: Steam Deck OLED (Galileo), SteamOS 3.8.10, gamescope 3.16.23.2, Scept
 
 See [CHAT-LOG.md](CHAT-LOG.md) for the full investigation, root cause analysis, and what was tried.
 
+## Authorship
+
+This repository was produced in a pair session between the repo owner and Claude (Anthropic's AI model, via Claude Code) on 2026-06-20 and 2026-06-21. Claude read the kernel and gamescope logs over SSH, worked out the root causes, and wrote every script, unit file and this README. The owner set the goal, ran the tests on the hardware, reported what happened, and made the calls on what to try next. The commit author is the owner's account because the commits were made from the owner's machine. Treat the code accordingly: it worked on the hardware listed above, and it has had one careful human reviewer, not a team.
+
 ---
 
 ## Quick install
